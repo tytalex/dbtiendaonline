@@ -1,0 +1,14 @@
+drop database prueba1
+create database prueba1
+go
+
+use database prueba1
+
+create table distrito
+(cod_dist int identity primary key,
+nom_dist varchar(50))
+go
+insert into distrito values
+('comas'),('los olivos'),('ancon')
+
+select * from distrito
